@@ -1,0 +1,24 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/Users/shenjiangping/Documents/lab/web-sdk"
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: common",
+      "code": "ENOENT",
+      "stack": "Error: not found: common\n    at getNotFoundError (/usr/local/Cellar/pnpm/7.5.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:21148:51)\n    at Function.whichSync [as sync] (/usr/local/Cellar/pnpm/7.5.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:21225:13)\n    at getCommandAbsolutePathSync (/usr/local/Cellar/pnpm/7.5.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:22903:44)\n    at default_1 (/usr/local/Cellar/pnpm/7.5.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:22912:32)\n    at /usr/local/Cellar/pnpm/7.5.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:184716:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/Users/shenjiangping/Documents/lab/web-sdk",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: common",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: common\n    at getNotFoundError (/usr/local/Cellar/pnpm/7.5.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:21148:51)\n    at Function.whichSync [as sync] (/usr/local/Cellar/pnpm/7.5.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:21225:13)\n    at getCommandAbsolutePathSync (/usr/local/Cellar/pnpm/7.5.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:22903:44)\n    at default_1 (/usr/local/Cellar/pnpm/7.5.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:22912:32)\n    at /usr/local/Cellar/pnpm/7.5.0/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:184716:39"
+    }
+  }
+}
